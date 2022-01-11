@@ -4,6 +4,6 @@
     "DBPassword" : "mysupersecretprodpassword",
     "DBRootPassword" : "mysupersecretprodpassword",
     "DBUser" : "ProdDBuser",    
-    "KeyName" : "DemoKeyPair"
+    "KeyName" : "kiattisakc025"
   }
 }

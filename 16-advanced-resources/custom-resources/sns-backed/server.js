@@ -1,8 +1,8 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const chalk = require('chalk');
+import express from 'express';
+import bodyParser from 'body-parser';
+import chalk from 'chalk';
 // cfnresponse module help in sending responses to CloudFormation instead of writing your own code
-const cfnresponse = require('cfn-response');
+import cfnresponse from 'cfn-response';
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
